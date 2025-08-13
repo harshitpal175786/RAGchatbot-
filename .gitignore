@@ -1,0 +1,129 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Large Model Files (exclude from Git but keep locally)
+RAGchatbot/lib/
+RAGchatbot/bin/
+RAGchatbot/include/
+RAGchatbot/share/
+RAGchatbot/pyvenv.cfg
+
+# Data Files (keep structure but exclude large content)
+RAGchatbot/scripts/data/*.pdf
+RAGchatbot/scripts/data/*.docx
+RAGchatbot/scripts/data/*.txt
+RAGchatbot/scripts/data/*.csv
+RAGchatbot/scripts/data/*.json
+scripts/data/*.pdf
+scripts/data/*.docx
+scripts/data/*.txt
+scripts/data/*.csv
+scripts/data/*.json
+
+# Vector Stores (regenerated files)
+RAGchatbot/scripts/vectorstores/*.db
+RAGchatbot/scripts/vectorstores/*.sqlite
+RAGchatbot/scripts/vectorstores/*.faiss
+scripts/vectorstores/*.db
+scripts/vectorstores/*.sqlite
+scripts/vectorstores/*.faiss
+scripts/vectorstores/db/
+scripts/vectorstores/*.bin
+
+# Model Files (too large for Git)
+RAGchatbot/models/*.bin
+RAGchatbot/models/*.safetensors
+RAGchatbot/models/*.gguf
+RAGchatbot/models/*.ggml
+models/*.bin
+models/*.safetensors
+models/*.gguf
+models/*.ggml
+models/*.pth
+models/*.ckpt
+models/*.h5
+models/*.onnx
+models/*.pt
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+retrieval_results.txt
+
+# Temporary Files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json 
